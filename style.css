@@ -71,3 +71,19 @@ body img {
     text-decoration: none;
     color: hsl(150, 100%, 66%) !important;
 }
+
+@media screen and (max-width: 768px) {
+    body {
+        padding: 10px;
+    }
+    .text-container{
+        min-width: 400px;
+    }
+    body div h3 {
+        font-size: 1rem;
+        letter-spacing: 2px;
+    }
+    body div p {
+        font-size: 18px;
+    }
+}
